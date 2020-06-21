@@ -8,8 +8,8 @@ Crystal lang implementation for [python-mnemonic](https://github.com/trezor/pyth
 
    ```yaml
    dependencies:
-     mnemonics:
-       github: hamdy/mnemonic.cr
+     mnemonic:
+       github: crystaluniverse/mnemonic.cr
    ```
 
 2. Run `shards install`
