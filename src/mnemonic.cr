@@ -45,7 +45,7 @@ class Mnemonic::Mnemonic
     end
     
     hash = OpenSSL::Digest.new("SHA256")
-    hashBytes = hash.update(entropy).digest
+    hashBytes = hash.update(entropy).final
     hashBits = Array(Bool).new
 
     hashBytes.each do |c|
